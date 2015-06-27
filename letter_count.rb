@@ -9,7 +9,7 @@ def repeats(word)
 	end
 end
 
-
+print "Roo"
 def letter_count(string)
 
 
