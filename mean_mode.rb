@@ -1,3 +1,5 @@
+#find the mean and the mode, if mode = mean return 1 else return 0
+
 def MeanMode(arr)
   mode = 0
   mean = (arr.inject(0){|sum, a| sum += a})/(arr.length)

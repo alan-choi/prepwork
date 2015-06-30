@@ -1,3 +1,5 @@
+#same as add_peristance but multiply
+
 class Integer
 	def find_product
 		to_s.split('').inject(1){|prod, a| prod *= a.to_i}
